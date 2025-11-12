@@ -8,20 +8,20 @@
   <style>
     :root{ --bg:#0f1724; --card:#0b1220; --muted:#94a3b8; --accent:#38bdf8 }
     html,body{height:100%;}
-    body { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; display:flex; align-items:center; justify-content:center; height:100vh; margin:0; background:linear-gradient(180deg,#071028 0%, #07182a 100%); color:#e6eef8 }
+    body { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; display:flex; align-items:center; justify-content:center; height:100vh; margin:0; background:linear-gradient(180deg,#071029,#071429); color:#cfe9ff }
     .wrap{ width:min(720px,94%); }
-    .card { text-align:left; padding:28px; border-radius:14px; background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.06)); box-shadow:0 10px 30px rgba(2,6,23,0.6); backdrop-filter: blur(6px); }
+    .card { text-align:left; padding:28px; border-radius:14px; background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.06)); box-shadow:0 10px 30px rgba(2,6,23,0.6); backdrop-filter: blur(6px) }
     h1{ margin:0 0 8px 0; font-size:20px }
     p.lead{ margin:0 0 18px 0; color:var(--muted) }
     .links{ display:flex; flex-direction:column; gap:12px }
-    .item{ display:flex; align-items:center; justify-content:space-between; padding:12px 16px; border-radius:10px; background:rgba(255,255,255,0.02); transition:transform .14s ease, box-shadow .14s ease; text-decoration:none; color:inherit }
+    .item{ display:flex; align-items:center; justify-content:space-between; padding:12px 16px; border-radius:10px; background:rgba(255,255,255,0.02); transition:transform .14s ease, box-shadow .14s ease }
     .item:hover{ transform:translateY(-4px); box-shadow:0 8px 30px rgba(8,20,40,0.5) }
     .item .left{ display:flex; gap:12px; align-items:center }
     .dot{ width:10px; height:10px; border-radius:50%; background:var(--accent); flex:0 0 10px }
     .meta{ color:var(--muted); font-size:13px }
     .url{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace; font-size:13px; color:#cfe9ff }
     footer{ margin-top:14px; color:var(--muted); font-size:13px }
-    @media (prefers-color-scheme:light){ body{ background:linear-gradient(180deg,#f5f7fb,#eef3ff); color:#061426 } .card{ background:linear-gradient(180deg,#fff,#fbfdff); box-shadow:0 8px 24px rgba(6,12,24,0.06) } }
+    @media (prefers-color-scheme:light){ body{ background:linear-gradient(180deg,#f5f7fb,#eef3ff); color:#061426 } .card{ background:linear-gradient(180deg,#fff,#fbfdff); box-shadow:0 8px 24px rgba(6,10,30,0.05) } .url{ color:#00657a } }
   </style>
 </head>
 <body>
@@ -59,6 +59,17 @@
             <div>
               <div class="title">2048 游戏</div>
               <div class="meta url">https://rgqexbnzzipc.sealosbja.site/2048</div>
+            </div>
+          </div>
+          <div class="meta">打开</div>
+        </a>
+
+        <a role="listitem" class="item" href="https://rgqexbnzzipc.sealosbja.site/files/files/download/games/YoursCraft/yourscraft.html" target="_self" rel="noopener noreferrer">
+          <div class="left">
+            <span class="dot" aria-hidden="true"></span>
+            <div>
+              <div class="title">YoursCraft</div>
+              <div class="meta url">https://rgqexbnzzipc.sealosbja.site/files/files/download/games/YoursCraft/yourscraft.html</div>
             </div>
           </div>
           <div class="meta">打开</div>
